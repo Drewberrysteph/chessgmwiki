@@ -35,8 +35,10 @@ The folder structure is based on the [Bulletproof React](https://github.com/alan
 ## Output
 
 Below is a sample screenshot of the application:
+![1](https://github.com/user-attachments/assets/c082fcec-4e54-4ce9-b8bc-ff8cfe069e61)
 
-![Chess Grandmasters Wiki Screenshot](./screenshot.png)
+![2](https://github.com/user-attachments/assets/db8dc90f-9657-48bc-bd6e-ee4d38decd57)
+
 
 ## Project Structure
 
