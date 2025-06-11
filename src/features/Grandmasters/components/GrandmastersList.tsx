@@ -4,6 +4,8 @@ import { Link, useSearchParams } from "react-router-dom";
 
 import Paragraph from "../../../components/Paragraph/Paragraph";
 import Image from "../../../components/Image/Image";
+import Loading from "../../../components/Loading/Loading";
+
 import {
   fetchGrandmasters,
   fetchGrandmasterProfile,
@@ -88,7 +90,7 @@ const Grandmasters = () => {
   const handlePrev = () => setSearchParams({ page: String(currentPage - PAGE_NUMBER) });
   const handleNext = () => setSearchParams({ page: String(currentPage + PAGE_NUMBER) });
 
-  if (loadingPlayers) return <div>Loading...</div>;
+  if (loadingPlayers) return <Loading />;
   if (error) return <div>{error}</div>;
 
   return (
